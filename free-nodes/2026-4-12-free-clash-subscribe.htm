@@ -324,14 +324,13 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <p data-start="2941" data-end="3106" class="">这篇文章在阐述旅行路由器与科学上网结合的过程中，逻辑清晰、内容全面。作者通过详细的产品介绍、实用的设置指南以及科学上网的技巧，帮助读者充分了解旅行路由器的多功能性以及如何最大化利用这一工具。在语言表达上，文章简洁明了，专业性与易读性并重。对于频繁出行的用户，本文提供了实用的建议，并解决了许多常见问题，是一篇十分有价值的旅行攻略。</p></div>
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
-        <p>上一个：<a href="/free-nodes/2026-4-11-free-v2ray.htm">免费 Clash V2ray - 4月11日21.1M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐</a></p>
         <p>下一个：<a href="/free-nodes/2026-4-13-free-high-speed-nodes.htm">免费 Clash V2ray - 4月13日20.6M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，Clash机场购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 支持哪些传输层协议？</h5></div>
+    <div class="panel-heading"><h5>Shadowrocket 如何处理域名直连与代理的冲突？</h5></div>
     <div class="panel-body">
-        V2Ray 支持多种传输层，包括 TCP、mKCP、WebSocket、gRPC、QUIC 等。每种传输方式都有不同的性能特点，例如 TCP 稳定、WS 兼容 CDN、QUIC 延迟低。<hr />    </div>
+        在 Shadowrocket 的规则管理中优先设置具体规则（如 DOMAIN-KEYWORD 或 DOMAIN-SUFFIX），将直连规则放在规则列表靠前位置，避免被泛用的代理规则覆盖，从而确保特定域名走直连。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Mellow 的 TUN 模式与 SOCKS5 代理区别是什么？</h5></div>
@@ -339,14 +338,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         TUN 模式拦截系统 IP 层流量，实现全局代理；SOCKS5 代理通常只影响特定应用。TUN 更适合全局加速、游戏和视频应用，保证所有流量走节点，提高网络稳定性和速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 节点订阅自动更新如何配置？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 精确端口分流如何提升游戏体验？</h5></div>
     <div class="panel-body">
-        用户可添加订阅 URL，Nekoray 会定期下载并替换旧节点。这样可保证节点列表始终最新，减少手动维护，提高使用效率，同时保证网络访问稳定可靠。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何按端口分流流量？</h5></div>
-    <div class="panel-body">
-        Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组使用，可精准分流，提高访问速度和网络稳定性，优化整体网络体验。<hr />    </div>
+        Sing-box 可按端口设置流量分流规则，将游戏流量分配到低延迟节点。结合策略组使用，可保证游戏连接稳定，减少延迟和掉线，提高流畅度。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 的节点健康检测如何工作？</h5></div>
@@ -364,19 +358,24 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         多策略组可以将节点按用途、延迟或地域分类，结合路由规则实现自动分流。不同类型流量可走不同节点，提升访问速度和稳定性，特别适合多应用使用场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 如何处理域名直连与代理的冲突？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 节点订阅自动更新如何配置？</h5></div>
     <div class="panel-body">
-        在 Shadowrocket 的规则管理中优先设置具体规则（如 DOMAIN-KEYWORD 或 DOMAIN-SUFFIX），将直连规则放在规则列表靠前位置，避免被泛用的代理规则覆盖，从而确保特定域名走直连。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 精确端口分流如何提升游戏体验？</h5></div>
-    <div class="panel-body">
-        Sing-box 可按端口设置流量分流规则，将游戏流量分配到低延迟节点。结合策略组使用，可保证游戏连接稳定，减少延迟和掉线，提高流畅度。<hr />    </div>
+        用户可添加订阅 URL，Nekoray 会定期下载并替换旧节点。这样可保证节点列表始终最新，减少手动维护，提高使用效率，同时保证网络访问稳定可靠。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Nekoray 支持 Trojan 吗？</h5></div>
     <div class="panel-body">
-        支持。Nekoray 基于 sing-box 核心，能兼容 Trojan、Vmess、Vless、Hysteria2 等多种协议。用户可在同一界面中管理和切换不同类型节点，非常方便。    </div>
+        支持。Nekoray 基于 sing-box 核心，能兼容 Trojan、Vmess、Vless、Hysteria2 等多种协议。用户可在同一界面中管理和切换不同类型节点，非常方便。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 支持哪些传输层协议？</h5></div>
+    <div class="panel-body">
+        V2Ray 支持多种传输层，包括 TCP、mKCP、WebSocket、gRPC、QUIC 等。每种传输方式都有不同的性能特点，例如 TCP 稳定、WS 兼容 CDN、QUIC 延迟低。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 如何按端口分流流量？</h5></div>
+    <div class="panel-body">
+        Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组使用，可精准分流，提高访问速度和网络稳定性，优化整体网络体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -405,16 +404,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-4-2-node-share-links.htm" title="免费 Clash V2ray - 4月2日21.8M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月2日21.8M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-22-free-clash.htm" title="免费 Clash V2ray - 3月22日22.8M/S|免费SSR节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月22日22.8M/S|免费SSR节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-15-clash-windows.htm" title="免费 Clash V2ray - 3月15日18.3M/S|免费Shadowrocket节点/Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月15日18.3M/S|免费Shadowrocket节点/Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-10-free-v2ray.htm" title="免费 Clash V2ray - 4月10日22.3M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/SSR节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月10日22.3M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-28-free-v2ray-subscribe.htm" title="免费 Clash V2ray - 3月28日21.8M/S|免费V2ray节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月28日21.8M/S|免费V2ray节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-7-node-share-links.htm" title="免费 Clash V2ray - 3月7日20.3M/S|免费V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月7日20.3M/S|免费V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-11-free-v2ray.htm" title="免费 Clash V2ray - 4月11日21.1M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月11日21.1M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-29-node-share.htm" title="免费 Clash V2ray - 3月29日18.7M/S|免费Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/Clash节点/SSR节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月29日18.7M/S|免费Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/Clash节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-12-free-high-speed-nodes.htm" title="免费 Clash V2ray - 3月12日18.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Trojan节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月12日18.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Trojan节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-9-clash-node.htm" title="免费 Clash V2ray - 3月9日18.2M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 3月9日18.2M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-13-free-high-speed-nodes.htm" title="免费 Clash V2ray - 4月13日20.6M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月13日20.6M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-23-free-v2ray.htm" title="免费 Clash V2ray - 4月23日20.3M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月23日20.3M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-5-free-clash.htm" title="免费 Clash V2ray - 5月5日22.8M/S|免费Clash节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 5月5日22.8M/S|免费Clash节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-30-clash-v2ray-ss-ssr.htm" title="免费 Clash V2ray - 4月30日22M/S|免费Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月30日22M/S|免费Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-11-free-high-speed-nodes.htm" title="免费 Clash V2ray - 5月11日20.8M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 5月11日20.8M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-17-clash-node.htm" title="免费 Clash V2ray - 4月17日20.8M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点/Shadowrocket节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月17日20.8M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点/Shadowrocket节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-28-free-node-subscribe-links.htm" title="免费 Clash V2ray - 4月28日21.4M/S|免费Trojan节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月28日21.4M/S|免费Trojan节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-26-clash-v2ray-ss-ssr.htm" title="免费 Clash V2ray - 4月26日22.5M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月26日22.5M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-25-free-subscribe-node.htm" title="免费 Clash V2ray - 4月25日19.2M/S|免费SSR节点/Clash节点/Shadowrocket节点/V2ray节点/Singbox节点/Trojan节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 4月25日19.2M/S|免费SSR节点/Clash节点/Shadowrocket节点/V2ray节点/Singbox节点/Trojan节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-6-clash-node-daily-updates.htm" title="免费 Clash V2ray - 5月6日22.8M/S|免费Singbox节点/SSR节点/V2ray节点/Trojan节点/Clash节点/Shadowrocket节点节点推荐，Clash机场购买推荐">免费 Clash V2ray - 5月6日22.8M/S|免费Singbox节点/SSR节点/V2ray节点/Trojan节点/Clash节点/Shadowrocket节点节点推荐，Clash机场购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -426,10 +425,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
+                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                     </ul>
     </div>
